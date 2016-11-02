@@ -1,0 +1,52 @@
+body{
+  background-color:green;
+  font-family:"Times New Roman";
+}
+h1{
+  color: white;
+  font-family:"Times New Roman";
+}
+p{
+  color:white;
+  font-family:"Times New Roman";
+  font-style:italic;
+  font-size:17px;
+}
+img{
+  padding:25px;
+}
+.quotes{
+  background-color:White;
+  width:48%;
+  margin-right:auto;
+  margin-left:auto;
+  border-color:black;
+  border-style:solid;
+  border-radius:10px;
+  margin-top:20px;
+  padding:20px;
+  height:auto;
+}
+.quote{
+  font-size:30px; 
+}
+.author{
+  font-size:20px;
+  font-style:italic;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

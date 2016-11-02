@@ -1,0 +1,23 @@
+$(document).ready(function(){
+  
+  function getquote(){
+    
+    var quote=["You really can't guard me!","I probably hit like 100 3's today","Yo pass the ball","Man come on!"]
+    var author=["-Johnathan Mullen","-Rashad Woodhouse","-Robert Green","-Josh Mathews"]
+    
+    
+    var randomNum = Math.floor((Math.random()*quote.length));
+    var randomquote = quote[randomNum];
+    var randomauthor = author[randomNum];
+    $(".quote").text(randomquote);
+    $(".author").text(randomauthor);
+    
+    $(".tweet_this").attr("href", "http://www.twitter.com/intent/tweet?text=" + randomquote + randomauthor);
+    
+  }
+    $(".onlyquotechange").on("click", function(){
+      getquote();
+      
+                    
+    });
+})
